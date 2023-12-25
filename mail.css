@@ -1,0 +1,74 @@
+body{
+    background-color: aliceblue;
+}
+.notication-bar{
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.search-part{
+    display: flex;
+    
+    background-color: rgb(210, 232, 251);
+    width: 40%;
+    border: none;
+    border-radius: 200px;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left: -10%;
+}
+.input{
+   width: 570px;
+   margin-left: 4px;
+   margin-top: 6px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(210, 232, 251);
+   font-size: 17px;
+}
+.search{
+    margin-top: 14px;
+    padding-left: 20px;
+}
+.search-option{
+    padding-right: 18px;
+    margin-top:9px;
+    
+}
+@media screen and (max-width:1500px){
+    .input{
+       width: 85%;
+}
+
+}
+.logo{
+ margin-left: -200px;
+ margin-top: 5px;
+ width: fit-content;
+}
+.options-gmail{
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+@media screen and (max-width:1500px){
+    .logo{
+   padding-left: 140px;
+    }
+    .search-part{
+        margin-left: -40px;
+    }
+   
+}
+.question-mark,.setting{
+    margin-top: 12px;
+    
+   
+}
+.square{
+    margin-top: 14px;
+}
+.profile{
+ margin-top: 10px;   
+}
+
