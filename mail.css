@@ -53,7 +53,7 @@ body{
 }
 @media screen and (max-width:1500px){
     .logo{
-   padding-left: 140px;
+   padding-left: 80px;
     }
     .search-part{
         margin-left: -40px;
@@ -64,14 +64,11 @@ body{
     margin-top: 12px;
     
 }
-.empty{
-    padding-left: 650px; 
-}
 .square{
     margin-top: 14px;
 }
 .profile{
-  
+ margin-top: 10px;   
 }
 
 
@@ -115,10 +112,26 @@ body{
     margin-left: 20px;
     margin-top: 15px;
 }
-.first3,.next3{
+.first3{
+    display: flex;
+   
+    width: 150px;
+}
+.select-all,.refresh,.inbox-option{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.next3{
     display: flex;
     justify-content: space-between;
     width: 150px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
 }
 @media screen and (max-width:1100px){
 .action-mail{
@@ -161,26 +174,28 @@ body{
 .social,.promotion,.primary{
     display: flex;
     margin-top: 20px;
-    
-   
 }
 .social-caption,.promotion-caption,.primary-caption{
   margin-left: 15px;
 }
 .primary{
-    border-bottom: 4px solid blueviolet;
+    border-bottom: 4px solid rgb(96, 80, 242);
 }
 .social-pic,.promotion-pic,.primary-pic{
     margin-left: 11px;
 }
 .msg{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 1000px 100px;
+    margin-top: 3px;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 14px;
-    background-color: white;
+    border: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 .5px 2px rgba(0, 0, 0, 0.3);
+    transition: .1s;
 }
 .msg:hover {
     border: none;
@@ -190,6 +205,8 @@ body{
 }
 .mail{
     width: 1000px;
+    margin-left: 35px;
+    margin-top: 4px;
 }
 .sym{
     display: grid;
@@ -198,7 +215,21 @@ body{
 }
 .sender{
    margin-top: 3px;
+   font-weight: 600;
 }
-.time{
-    padding-left: ;
+.tag,.tag2{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 135, 32);
+    height: 16px;
+    width: 45px;
+    margin-left: 5px;
+    color: whitesmoke;
+    font-size: 13px;
+    padding-left: 7px;
+    padding-top: 1px;
+    margin-top: 2px;
+}
+.tag2{
+    background-color: rgb(27, 103, 255);
 }
