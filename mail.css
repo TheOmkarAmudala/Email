@@ -1,5 +1,7 @@
 body{
     background-color: aliceblue;
+    color: #202124;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .notication-bar{
     display: flex ;
@@ -8,14 +10,13 @@ body{
 }
 .search-part{
     display: flex;
-    
     background-color: rgb(210, 232, 251);
-    width: 40%;
+    width: 45%;
     border: none;
     border-radius: 200px;
     box-sizing: border-box;
     height: 50px;
-    margin-left: -10%;
+    margin-left: -4%;
 }
 .input{
    width: 570px;
@@ -42,18 +43,17 @@ body{
 
 }
 .logo{
- margin-left: -200px;
+ margin-left: -110px;
  margin-top: 5px;
  width: fit-content;
 }
 .options-gmail{
     padding-left: 20px;
     margin-top: 12px;
-    margin-right: 30px;
 }
 @media screen and (max-width:1500px){
     .logo{
-   padding-left: 140px;
+   padding-left: 80px;
     }
     .search-part{
         margin-left: -40px;
@@ -63,7 +63,6 @@ body{
 .question-mark,.setting{
     margin-top: 12px;
     
-   
 }
 .square{
     margin-top: 14px;
@@ -77,11 +76,11 @@ body{
     display: flex;
 }
 .option-section{
-    width: 9%;
+    width: 5%;
     display: grid;
    grid-template-rows:50px 50px 40px 40px 40px 40px 60px 40px;
-   margin-left: 20px;
-   margin-top: 30px;
+   margin-left: px;
+   margin-top: 15px;
 }
 .pencil{
     border: none;
@@ -100,5 +99,137 @@ body{
     padding-left: 20px;
    margin-top: px;
 }
+.inbox-part{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
 
+}
 
+.action-mail{
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.first3{
+    display: flex;
+   
+    width: 150px;
+}
+.select-all,.refresh,.inbox-option{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.next3{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+}
+@media screen and (max-width:1100px){
+.action-mail{
+   width: 730px;
+}
+.option-section{
+    width: 7%;
+}
+}
+.select-all,.refresh,.inbox-options{
+    margin-top: 15px;
+}
+.number-mail{
+    margin-top: 20px;
+}
+.right-move{
+    margin-top: 20px;
+   
+}
+.left-move{
+    margin-top: 20px;
+    padding-right: 15px;
+}
+@media screen and (max-width: 1100px) {
+    .action-mail{
+        margin-left: 10px;
+    }
+    .inbox-section{
+        margin-left: 20px;
+    }
+}
+.header{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+}
+.social,.promotion,.primary{
+    display: flex;
+    margin-top: 20px;
+}
+.social-caption,.promotion-caption,.primary-caption{
+  margin-left: 15px;
+}
+.primary{
+    border-bottom: 4px solid rgb(96, 80, 242);
+}
+.social-pic,.promotion-pic,.primary-pic{
+    margin-left: 11px;
+}
+.msg{
+    display: grid;
+    grid-template-columns: 200px 1000px 100px;
+    margin-top: 3px;
+    cursor: pointer;
+    padding-top: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 .5px 2px rgba(0, 0, 0, 0.3);
+    transition: .1s;
+}
+.msg:hover {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: .1s;
+    
+}
+.mail{
+    width: 1000px;
+    margin-left: 35px;
+    margin-top: 4px;
+}
+.sym{
+    display: grid;
+    grid-template-columns: 30px 30px 90px;
+    height: 30px;
+}
+.sender{
+   margin-top: 3px;
+   font-weight: 600;
+}
+.tag,.tag2{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 135, 32);
+    height: 16px;
+    width: 45px;
+    margin-left: 5px;
+    color: whitesmoke;
+    font-size: 13px;
+    padding-left: 7px;
+    padding-top: 1px;
+    margin-top: 2px;
+}
+.tag2{
+    background-color: rgb(27, 103, 255);
+}
