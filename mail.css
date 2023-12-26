@@ -8,14 +8,13 @@ body{
 }
 .search-part{
     display: flex;
-    
     background-color: rgb(210, 232, 251);
     width: 40%;
     border: none;
     border-radius: 200px;
     box-sizing: border-box;
     height: 50px;
-    margin-left: -10%;
+    margin-left: -8%%;
 }
 .input{
    width: 570px;
@@ -42,14 +41,13 @@ body{
 
 }
 .logo{
- margin-left: -200px;
+ margin-left: -130px;
  margin-top: 5px;
  width: fit-content;
 }
 .options-gmail{
     padding-left: 20px;
     margin-top: 12px;
-    margin-right: 30px;
 }
 @media screen and (max-width:1500px){
     .logo{
@@ -77,7 +75,7 @@ body{
     display: flex;
 }
 .option-section{
-    width: 9%;
+    width: 5%;
     display: grid;
    grid-template-rows:50px 50px 40px 40px 40px 40px 60px 40px;
    margin-left: 20px;
@@ -99,6 +97,63 @@ body{
 .star,.snoozed,.sent,.drafts,.more,.add{
     padding-left: 20px;
    margin-top: px;
+}
+.inbox-part{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+
+}
+
+.action-mail{
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 24px;
+}
+.first3,.next3{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+@media screen and (max-width:1100px){
+.action-mail{
+   width: 730px;
+}
+.option-section{
+    width: 7%;
+}
+}
+.select-all,.refresh,.inbox-options{
+    margin-top: 15px;
+}
+.number-mail{
+    margin-top: 20px;
+}
+.right-move{
+    margin-top: 20px;
+   
+}
+.left-move{
+    margin-top: 20px;
+    padding-right: 15px;
+}
+@media screen and (max-width: 1100px) {
+    .action-mail{
+        margin-left: 10px;
+    }
+    .inbox-section{
+        margin-left: 20px;
+    }
+}
+.header{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    background-color: white;
+  
+    border: none;
+    border-radius: 15px;
+    padding-top: px;
 }
 
 
